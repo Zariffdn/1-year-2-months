@@ -3,64 +3,64 @@ import { ArrowLeft } from "./icons";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useRef } from "react";
-import { heavenly,sparks,brandy,bruno,greenday,kanye,sunsetz,souljaboy } from "../assets";
+import { heavenly,sparks,brandy,bruno,greenday,kanye,souljaboy,sunsetz } from "../assets";
 
 function Music() {
   const navigate = useNavigate();
   // Customize and add your own songs
   const songs = [
     {
-      title: "Heavenly",
-      artist: "Cigarettes After Sex",
+      title: "kahit maputi na ang buhok ko",
+      artist: "Rey Valera",
       albumCover: heavenly, 
       left: "5%",
       top: "5%",
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
+      title: "Sining",
+      artist: "Dionela",
       albumCover: brandy, 
       left: "40%",
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
+      title: "Just the way you are",
+      artist: "Bruno Mars",
       albumCover: bruno, 
       left: '15%',
       top: '40%',
     },
     {
-      title: "Last Night on Earth",
-      artist: "Green Day",
+      title: "Marilag",
+      artist: "Oksihina",
       albumCover: greenday, 
       left: '30%',
       top: '75%',
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
+      title: "Oksihina",
+      artist: "Dionela",
       albumCover: kanye, 
       left: '5%',
       top: '65%',
     },
     {
-      title: "Sparks",
-      artist: "Coldplay",
+      title: "Nothing",
+      artist: "Bruno Major",
       albumCover: sparks, 
       left: '25%',
       top: '90%',
     },
     {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
+      title: "Here with me",
+      artist: "d4vd",
       albumCover: souljaboy, 
       left: '35%',
       top: '50%',
     },
     {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
+      title: "Those Eyes",
+      artist: "New West",
       albumCover: sunsetz, 
       left: "10%",
       top: "25%",

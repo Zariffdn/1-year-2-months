@@ -32,7 +32,7 @@ function Closing() {
         {/* Greeting text */}
         <div className='w-[90%] max-w-[400px]'>
           <p className="z-10 text-white text-center text-xl font-semibold px-4 drop-shadow-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, delectus? Ut delectus voluptatibus consequatur ex.
+            Eventhough we didn't celebrate Christmas and New Year together in person this year but Sarip promise you we will in future! Sarip treasure and cherish Snow Mahal so much and Sarip always will, forever❤️
           </p>
 
         {/* Button */}

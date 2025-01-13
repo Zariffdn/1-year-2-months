@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 // Passcode
-const CORRECT_PASSCODE = '1018' 
+const CORRECT_PASSCODE = '1811' 
 
 function Passcode() {
     const [passcode, setPasscode] = useState([])
@@ -23,7 +23,7 @@ function Passcode() {
               
             }, 500)
           } else {
-            setMessage('Incorrect passcode, hint: our anniversary date!')
+            setMessage('Incorrect passcode, hint: our first chat date!')
             setTimeout(() => {
               setPasscode([])
               setMessage('')

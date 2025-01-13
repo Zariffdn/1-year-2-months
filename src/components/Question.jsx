@@ -11,7 +11,7 @@ function Question() {
   const inputRef = useRef(null);
 
   // Customize your own Trending Searches
-  const trends = ['Why is my bf so cute?', 'Why does Rheina love him more?', `Rheina's birthdate (coz her bf forgets)`,]
+  const trends = ['Why Snow Mahal is super duper cute?', 'Why does Sarip treasure Snow Mahal a lot?', `When will Sarip got a kiss from Snow Mahal?`,]
 
   const handleSearch = (e) => {
     e.preventDefault()
